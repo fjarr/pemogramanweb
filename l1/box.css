@@ -1,0 +1,9 @@
+.box {
+    background-image: url(img2.jpg);
+}
+.profile {
+    background-color: black;
+    width: 25%;
+    height: 75%;
+    margin-left: 1%;
+}

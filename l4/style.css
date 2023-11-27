@@ -1,0 +1,36 @@
+header {
+    background-color: deepskyblue;
+}
+
+.sidebar {
+    
+    width: 25%;
+    height: 800px;
+    float: left;
+}
+aside{
+    flex: 1;
+    height: 50%;
+    background-color: dimgray;
+    width: 100%;
+    
+}
+nav {
+    flex: 2;
+    height: 50%;
+    background-color: grey;
+    
+    width: 100%
+    
+}
+main{
+    flex: 3;
+    background-color: darkviolet;
+    display: flex;
+    height: 800px;
+    width: 75%;
+}
+
+footer {
+    background-color: deepskyblue;
+}
