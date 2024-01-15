@@ -1,0 +1,92 @@
+
+.nav {
+  color: rgb(255, 255, 255);
+  background-color: rgb(71, 79, 81);
+  display: flex;
+  top: 0%;
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  justify-content: space-between;
+}
+.nav ul li {
+  display: inline-block;
+  margin: auto;
+  margin-right: 20px;
+}
+.content{
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px auto;
+  grid-template-areas: 'title title form form';
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 70px;
+  
+}
+
+.title{ grid-area: title;
+background-image: url(bali.jpg);
+height:500px;
+}
+.form{ grid-area: form;
+  height:500px;
+  background-image: url(i.jpg);
+
+}
+
+.pesan{
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+  text-align: center;
+  background-color: rgba(0, 19, 69, 0.397);
+  border-radius:2%;
+  width: 900px;
+  height:450px;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #2d396d;
+  
+}
+th,td,img{
+  width: 110px;
+  height: 110px;
+}
+.table {
+  background-color: rgb(41, 56, 108);
+  color: white;
+  text-align: center;
+}
+
+.list{
+  color: white;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px auto;
+  grid-template-areas: 'list1 list2 list3 list4 list5 list6';
+  margin: auto;
+  margin-top: 70px;
+  
+}
+
+.list1{ grid-area: list1;
+}
+.list2{ grid-area: list2;
+}
+.list3{ grid-area: list3;
+}
+.list4{ grid-area: list4;
+}
+.list5{ grid-area: list5;
+}
+.list6{ grid-area: list6;
+}
