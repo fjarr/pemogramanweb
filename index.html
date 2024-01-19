@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+     </head>
+  <body>
+    <form id="u">
+      <center>
+         <div id="a">
+           <div id="judul">
+             LOGIN
+           </div>
+           <div id="b">
+             <br />
+            username
+           <input type="text" id="username">
+           </div>
+            <div id="c">
+              <br />
+              password
+             <input type="password" id="password">
+            </div>
+             <div id="d">
+              <input type="button" value="Login" onClick="Login()"> 
+             </div>
+         </div>
+          </center>
+ </form>
+ <script>function Login(){ 
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+
+            if (user=="admin" && pass=="123"){
+             alert("SELAMAT ANDA SUDAH LOGIN");
+             window.location = "loop.html";
+            }else{
+                alert("Username dan password anda salah!");
+            }
+        }
+ </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body{
+  background-color:darkgrey;
+  
+}
+#a{
+  margin-top: 150px;
+  width: 200px;
+  height: 250px;
+  background-color: black;
+  color: white;
+}
+input{
+  margin-top: 20px;
+}
+#judul{
+  background-color:#6495ED ;
+}
+#d{
+  margin-right: 10px;
+}
